@@ -1,0 +1,7 @@
+function getMonthEnglish(month) {
+  return new Date(2000, month -1).toLocaleString("en-us", {month: "long"});
+}
+
+function getMonthThai(month) {
+  return new Date(2000, month -1).toLocaleString("th", {month: "long"});
+}
