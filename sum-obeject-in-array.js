@@ -4,7 +4,7 @@ let x2 = () => {
   a.forEach(x => {
     const i = arr.findIndex(s => x.a == s.a)
     if (i !== -1) {
-      r[i] = {
+      arr[i] = {
         a: arr[i].a,
         b: arr[i].b + x.b,
         c: arr[i].c + x.c
